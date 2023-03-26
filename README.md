@@ -8,3 +8,7 @@ Notes/Code Snippets
 /* multiline content comment*/
 
 ## Variables
+ES5 - var  
+JS is dynamically typed -> let, var, const need not declare datatype beforehand
+
+
