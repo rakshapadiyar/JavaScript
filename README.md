@@ -114,7 +114,7 @@ default :{
 }  
 }
 ## [v] Looping Statements
-#### definite looping
+#### 1) Definite looping
 number of times the loop runs is pre defined
 ex : for loop, for-in loop, for-of loop  
 
@@ -132,11 +132,14 @@ for( let i in student )
  console.log(i) // prints name,age  
  console.log(student[i]) //prints Anu, 19  
  
-##### b) for of loop
+##### c) for of loop
 
 
-#### indefinite looping
+#### 2) Indefinite looping
 loop runs as long as condition is true
-ex : while loop
+ex : while loop, do while loop
+  
+  ->break stateement :to exit from further loop iterations.  
+  -> continue :  to stop current iteration of loop and continue further iterations
 
 
