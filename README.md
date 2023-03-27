@@ -68,3 +68,26 @@ Type error  : Assignment to a constant variable.
 Suggestion :
 Avoid usig var  
 If value keeps changing, use let. Else, use const.
+
+## Operators  
+  
+  ### 1) Relational Operators 
+< , < , >= , <= , == , !=  
+
+  ### 2) Arithmetic Operators
++, -, /, * , %  
+
+  ### 3) Logical Operators
+&&, ||, !
+
+  ### 4) Bitwise Operators
+&, | , ~, !, >> , << , >>>
+
+  ### 5) Assignment Operators
+= , +=, -= , *= , /=
+ 
+  ### 6) Other Operators
+  typeof, + , -  
+  + => console.log("a" + x) //concatination
+  - => let a=10, b=-a;
+
