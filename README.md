@@ -165,11 +165,12 @@ console.log(add(4)); // output 6, coz x=4, y=2
 #### c) Rest parameters
 ... is called ***spread operator***.  
 Rest parameters used when we dont know how many parameters will be sent to our function.
-> function myLength(...len)
-{
-  return len.length;
-}  
-len is a array/list.
+> function myLength(...len)  
+{  
+  return len.length;  
+    
+ }  
+len is a array/list.  
 console.log(myLength(2,3,4,5)); // op 4  
 console.log(myLength(1,2,3,4,5,6,7,8,9); //op 9  
 The point is ... accepts for parameter of all length.  
