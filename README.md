@@ -81,7 +81,11 @@ If value keeps changing, use let. Else, use const.
 &&, ||, !
 
   ### 4) Bitwise Operators
-&, | , ~, !, >> , << , >>>
+&, | , ~, !, >> , << , >>>   
+>>> is Fill right shift' operator : op1 >>> op2.
+This operator shifts the first operand the specified number of bits to the right. Excess bits shifted off to the right are discarded. Zero bits are shifted in from the left.  
+Example : 101001 >>> 2 = 001010
+( There is no <<< operator )
 
   ### 5) Assignment Operators
 = , +=, -= , *= , /=
