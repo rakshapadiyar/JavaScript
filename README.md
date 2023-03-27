@@ -100,7 +100,7 @@ Example : 101001 >>> 2 = 001010
 #### 1) if else statement
 #### 2) if else ladder
 #### 3) switch statement
-switch( condition )  
+>switch( condition )  
 {  
 case "a" : {  
 //code
@@ -114,6 +114,29 @@ default :{
 }  
 }
 ## [v] Looping Statements
+#### definite looping
+number of times the loop runs is pre defined
+ex : for loop, for-in loop, for-of loop  
 
+##### a) for loop
+factorial of a number   
+>for(let i=n ; i>=0 ; i--)  
+{  
+  factorial *= i;  
+}  
+
+##### b) for in loop
+>var student = { "name" : "Anu" , "age" : 19 }  
+for( let i in student )    
+{  
+ console.log(i) // prints name,age  
+ console.log(student[i]) //prints Anu, 19  
+ 
+##### b) for of loop
+
+
+#### indefinite looping
+loop runs as long as condition is true
+ex : while loop
 
 
