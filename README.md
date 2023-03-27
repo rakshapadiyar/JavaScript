@@ -145,4 +145,31 @@ ex : while loop, do while loop
   -> break stateement :to exit from further loop iterations.  
   -> continue :  to stop current iteration of loop and continue further iterations
 
+## [vi] Functions
+
+#### a) Parameterized functions  
+> function add(x,y)  
+{  
+return x+y;  
+}  
+console.log(add(4,5)); // output 9  
+
+#### b) Default return parameters
+> function add(x,y=2)  
+{  
+return x+y;  
+}  
+console.log(add(4,5)); // output 9  
+console.log(add(4)); // output 6, coz x=4, y=2
+
+#### c) Rest parameters
+... is called ***spread operator***.
+> function add(x,y=2)  
+{  
+return x+y;  
+}  
+console.log(add(4,5)); // output 9  
+console.log(add(4)); // output 6, coz x=4, y=2
+
+
 
