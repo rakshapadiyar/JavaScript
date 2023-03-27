@@ -133,13 +133,16 @@ for( let i in student )
  console.log(student[i]) //prints Anu, 19  
  
 ##### c) for of loop
-
+>for (let i of [10, 20, 30, 40, 50])  
+{  
+console.log(i);  
+}
 
 #### 2) Indefinite looping
 loop runs as long as condition is true
 ex : while loop, do while loop
   
-  ->break stateement :to exit from further loop iterations.  
+  -> break stateement :to exit from further loop iterations.  
   -> continue :  to stop current iteration of loop and continue further iterations
 
 
