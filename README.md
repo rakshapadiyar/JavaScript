@@ -1,13 +1,13 @@
 # JavaScript
 Notes/Code Snippets
 
-## Basics
+## [i] Basics
 -> Case Sensitive  
 -> Semicolons optional  
 // single line comment  
 /* multiline content comment*/
 
-## Variables
+## [ii] Variables
  · ES5 - var  
  · JS is dynamically typed -> let, var, const need not declare datatype beforehand  
 
@@ -69,29 +69,51 @@ Suggestion :
 Avoid usig var  
 If value keeps changing, use let. Else, use const.
 
-## Operators  
+## [iii] Operators  
   
-  ### 1) Relational Operators 
+  #### 1) Relational Operators 
 < , < , >= , <= , == , !=  
 
-  ### 2) Arithmetic Operators
+  #### 2) Arithmetic Operators
 +, -, /, * , %  
 
-  ### 3) Logical Operators
+  #### 3) Logical Operators
 &&, ||, !
 
-  ### 4) Bitwise Operators
+  #### 4) Bitwise Operators
 &, | , ~, !, >> , << , >>>   
->>> is Fill right shift' operator : op1 >>> op2.
+>>> '>>>' is Fill right shift' operator : op1 >>> op2.
 This operator shifts the first operand the specified number of bits to the right. Excess bits shifted off to the right are discarded. Zero bits are shifted in from the left.  
-Example : 101001 >>> 2 = 001010
+Example : 101001 >>> 2 = 001010  
 ( There is no <<< operator )
 
-  ### 5) Assignment Operators
+  #### 5) Assignment Operators
 = , +=, -= , *= , /=
  
-  ### 6) Other Operators
+  #### 6) Other Operators
   typeof, + , -  
   + => console.log("a" + x) //concatination
   - => let a=10, b=-a;
+
+## [iv] Decision Making
+
+#### 1) if else statement
+#### 2) if else ladder
+#### 3) switch statement
+switch( condition )  
+{  
+case "a" : {  
+//code
+break
+}  
+case "b" : {  
+//code
+break
+}  
+default :{  
+}  
+}
+## [v] Looping Statements
+
+
 
