@@ -168,8 +168,7 @@ Rest parameters used when we dont know how many parameters will be sent to our f
 > function myLength(...len)  
 {  
   return len.length;  
-    
- }  
+}  
 len is a array/list.  
 console.log(myLength(2,3,4,5)); // op 4  
 console.log(myLength(1,2,3,4,5,6,7,8,9); //op 9  
