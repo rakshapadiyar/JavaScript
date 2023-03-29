@@ -175,6 +175,30 @@ console.log(myLength(1,2,3,4,5,6,7,8,9); //op 9
 The point is ... accepts for parameter of all length.  
 
 #### d) Function Constructor
+Example :   
+>let fun = new Function("x","y","return x*y;");    
+console.log(fun(5,6));  
 
+first few args "x", "y",... are the parameters for the function 'fun'  
+last arg is the body of the function ( return x*y)
 
+#### e) Recursion
+> function factorial(n) {  
+> if(n==1) {  
+>  return 1;  
+>          }   
+> else return n*fact(n-1);   
+  }
+  
+#### f) Anonymous Function
+This type of function has no name
 
+> function(){  
+> console.log(" I am Anonymous")  
+> }
+
+Now wrap this inside () and call it immediately using ();
+
+> (function(){  
+> console.log(" I am Anonymous")  
+> })();
