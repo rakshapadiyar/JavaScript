@@ -202,3 +202,21 @@ Now wrap this inside () and call it immediately using ();
 > (function(){  
 > console.log(" I am Anonymous")  
 > })();
+
+#### g) Lambda functions / Arrow functions
+They represent to the anonymous functions.  
+
+3 parts in a lambda function  
+>i) Parameters 
+ii) fat arrow notations
+iii) statements
+
+Example : 
+> function lambda1 = (x,y,z) => {  
+> console.log(" In Lambda function ")  
+> return x+y+z
+> }
+ 
+ To call the function : 
+> console.log( lambda1(1,2,3));
+
