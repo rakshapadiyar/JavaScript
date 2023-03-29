@@ -218,5 +218,37 @@ Example :
 > }
  
  To call the function : 
-> console.log( lambda1(1,2,3));
+> console.log( lambda1(1,2,3));  
+
+Since we have a single line of code in the function, we can bypass the return { } and optimize the code as   
+> function lambda1 = ( x,y,z) => x+y+z;  
+> console.log( lambda1(1,2,3));   
+
+ If you have just one passing parameter,
+> function lambda1 = x => x+10;
+
+#### h) Generator functions
+-> Get a great control over the function execution.  
+-> denoted by function*  
+-> To call the generator function, we need to have an instance of the function first.
+
+>function* query()  
+{  
+    const name = yield "whats your name? ";  
+    const age = yield " whats your age? ";  
+    return `${name}'s age is ${age}`;  
+    }  
+    
+>const instance = query()  
+console.log(instance.next());  
+console.log(instance.next("Raksha"))  
+console.log(instance.next("23"))  
+
+
+Output : 
+>{ value: 'whats your name? ', done: false }  
+{ value: ' whats your age? ', done: false }  
+{ value: "Raksha's age is 23", done: true }
+
+
 
