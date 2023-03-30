@@ -1,5 +1,5 @@
 # JavaScript
-Notes/Code Snippets
+My Notes/Code Snippets
 
 ## [i] Basics
 -> Case Sensitive  
