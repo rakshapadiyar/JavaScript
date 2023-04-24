@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alerts Prompts and Confirm</title>
+  </head>
+  <body>
+    <script>
+      function alertFunction() {
+        alert("I am alert");
+      }
+      function confirmFunction() {
+        confirm("Do you confirm?");
+      }
+      function promptFunction() {
+        const c = prompt("Enter a prompt value ");
+      }
+    </script>
+    <input type="button" value="Alert" onClick="alertFunction()" />
+    <input type="button" value="Confirm" onClick="confirmFunction()" />
+    <input type="button" value="Prompt" onClick="promptFunction()" />
+  </body>
+</html>
